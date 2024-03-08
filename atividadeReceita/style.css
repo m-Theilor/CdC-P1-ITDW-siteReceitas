@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    --fonte-primária: "Inter", sans-serif;
+    --fonte-secundária: "Abel", sans-serif;
+    --cor-primaria: #ECD509;
+    --cor-secundaria: #F2F2F2;
+    --cor-terciaria: #ffffff;
+    --cor-quaternaria: #000000;
+}
+
+.cabecalho {
+    text-align: center;
+    background-color: var(--cor-primaria);
+    padding: 1.25rem;
+}
+
+.cabecalho__titulo {
+    font-family: var(--fonte-primária);
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--cor-quaternaria);
+    font-weight: 400;
+}
+
+body {
+    background-color: var(--cor-terciaria);
+    height: 100%;
+}
+
+.opcao {
+    text-align: center;
+}
+
+.conteudo {
+    padding-bottom: 11.2em;
+}
+
+.opcao__receita {
+    padding: 1.25rem;
+}
+
+.conteudo__banner {
+    text-align: center;
+}
+
+.conteudo__titulo {
+    text-align: center;
+    padding: 0.63em 0em;    
+}
+
+.conteudo__titulo__titulo {
+    font-family: var(--fonte-primária);
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.conteudo__ingredientes {
+    background-color: var(--cor-secundaria);
+    border-radius: 3.13rem;
+    margin: 0rem 1.2rem 1.63rem 0.8rem;
+    padding: 1em 2.5em;
+}
+
+.conteudo__preparo {
+    background-color: var(--cor-secundaria);
+    border-radius: 3.13rem;
+    margin: 3rem 1.2rem 1.63rem 0.8rem;
+    padding: 1em 2.5em;
+}
+
+.conteudo__banner__img {
+    max-width: 38.2rem;
+    max-height: 13rem;
+    width: auto;
+    height: auto;
+}
+
+.conteudo__ingredientes__titulo {
+    font-family: var(--fonte-primária);
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.conteudo__ingredientes__lista__titulo {
+    font-family: var(--fonte-primária);
+    font-size: 1.5em;
+    font-weight: 500;
+    padding-bottom: 0.2em;
+   
+}
+
+.conteudo__ingredientes__lista__bolo__item{
+    font-family: var(--fonte-primária);
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.conteudo__ingredientes__lista__calda__item{
+    font-family: var(--fonte-primária);
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.conteudo__ingredientes__lista__recheio__item{
+    font-family: var(--fonte-primária);
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.conteudo__ingredientes__lista__cobertura__item{
+    font-family: var(--fonte-primária);
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.conteudo__preparo__lista__titulo {
+    font-family: var(--fonte-primária);
+    font-size: 1.5em;
+    font-weight: 500;
+    padding-bottom: 0.2em;
+}
+
+.conteudo__preparo__lista__bolo__item{
+    font-family: var(--fonte-primária);
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.conteudo__preparo__lista__calda__item{
+    font-family: var(--fonte-primária);
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.conteudo__preparo__lista__recheio__item{
+    font-family: var(--fonte-primária);
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.conteudo__preparo__lista__cobertura__item{
+    font-family: var(--fonte-primária);
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.conteudo__preparo__titulo {
+    font-family: var(--fonte-primária);
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.conteudo__ingredientes__lista {
+    padding: 0.8em 0 0 1.2em;
+}
+
+.conteudo__ingredientes__lista__item{
+    font-family: var(--fonte-primária);
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.conteudo__preparo__lista {
+    padding: 0.8em 0 0 1.2em;   
+}
+
+.conteudo__preparo__lista__item{
+    font-family: var(--fonte-primária);
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.conteudo__titulo__titulo {
+    font-family: var(--fonte-primária);
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+
+.opcao__receita__paragrafo {
+    font-family: var(--fonte-secundária);
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+}
+
+.opcao__receita__img__botao {
+    max-height: 11.75rem;
+    width: 17.5em;
+    height: auto;
+    border-radius: 3.13rem;
+}
+
+footer {
+    background-color: var(--cor-primaria);
+    height: 4.2rem;
+}
